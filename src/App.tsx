@@ -224,7 +224,7 @@ export default function App() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <h1 className="text-6xl md:text-8xl lg:text-9xl font-extrabold tracking-tighter leading-[0.9] mb-8">
+              <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-9xl font-extrabold tracking-tighter leading-[0.95] mb-8">
                 INFORMATICS<br />
                 <span className="text-transparent border-t-brand-primary" style={{ WebkitTextStroke: '1px black' }}>ENGINEER.</span>
               </h1>
