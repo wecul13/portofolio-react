@@ -41,16 +41,17 @@ export interface Certificate {
   certificateUrl: string;
 }
 
-const thumbnailMagang = new URL('./attachments/thumbnail magang.png', import.meta.url).href;
-const thumbnailIoT = new URL('./attachments/thumbnail IoT.jpeg', import.meta.url).href;
-const thumbnailDigitalMarketing = new URL('./attachments/Digital Marketing.jpeg', import.meta.url).href;
-const pictureSanjaya = new URL('./attachments/pict.jpeg', import.meta.url).href;
+// Public folder paths - these are served directly by Vite/Netlify
+const thumbnailMagang = '/attachments/thumbnail magang.png';
+const thumbnailIoT = '/attachments/thumbnail IoT.jpeg';
+const thumbnailDigitalMarketing = '/attachments/Digital Marketing.jpeg';
+const pictureSanjaya = '/attachments/pict.jpeg';
 
-const certificateMagang = new URL('./attachments/certificates/SERTIKASI_MAGANG_SANJAYA.pdf', import.meta.url).href;
-const certificateSkL = new URL('./attachments/certificates/SKL (surat keterangan lulus).pdf', import.meta.url).href;
-const certificateDigitalMarketing = new URL('./attachments/certificates/Digital Marketing Sertifikat Kelulusan - Sanjaya.pdf', import.meta.url).href;
-const certificateToefl = new URL('./attachments/certificates/Toefl-10121186.pdf', import.meta.url).href;
-const certificateBnsp = new URL('./attachments/certificates/SERTIKASI_BNSP_SANJAYA.pdf', import.meta.url).href;
+const certificateMagang = '/attachments/certificates/SERTIKASI_MAGANG_SANJAYA.pdf';
+const certificateSkL = '/attachments/certificates/SKL (surat keterangan lulus).pdf';
+const certificateDigitalMarketing = '/attachments/certificates/Digital Marketing Sertifikat Kelulusan - Sanjaya.pdf';
+const certificateToefl = '/attachments/certificates/Toefl-10121186.pdf';
+const certificateBnsp = '/attachments/certificates/SERTIKASI_BNSP_SANJAYA.pdf';
 
 export const projects: Project[] = [
   {
